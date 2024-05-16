@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>To-do list</title>
+</head>
+<body>
+ <nav>
+  <div class="profile">
+    <img src="freepik.jpeg" alt="" width="60px" height="60px" style="border-radius: 50%;">
+    <p style="margin-left: 5px;">OncientOne <br> Level 1</p>
+
+  </div>
+
+  <div class="list">
+    <ul>
+      <li><a href="#">Homepage</a></li>
+      <li><a href="#">Schedule</a></li>
+      <li><a href="#">Setting</a></li>
+      <li><a href="#">Premium</a></li>
+    </ul>
+  </div>
+
+  <div class="sign-in">
+    <button>Sign-in</button>
+    <button>Sign-up</button>
+  </div>
+</nav> 
+
+<div class="container">
+    <div class="container-header">
+      <h1>TO-DO LIST</h1>
+      <p>Your Point</p>
+      <p style="margin-bottom: 20px;">Level : 1</p>
+    </div>
+
+    <div class="input-grid" ">
+      <input type="text" placeholder="Add a new task..." class="js-name-input name-input" onkeydown="onKey(event)">
+      <input type="date" class = 'js-date-input date-input'>
+      <button class="add-todo-btn js-add-todo-btn">Add</button>
+    </div>
+
+    <div class="js-todo-list todo-grid">Nothing has been filled yet</div> 
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
